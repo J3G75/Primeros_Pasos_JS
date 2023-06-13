@@ -1,0 +1,49 @@
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="number"],
+ 
+  
+  form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form .form-control.error input{
+    border-color: #f44336;
+  }
+  
+  form .form-control.error small {
+    visibility: visible;
+    color: #f44336;
+    font-size: 14px;
+  }
+  
+  form .form-control.success input {
+    border-color: #4CAF50;
+  }
+  
+  form .form-control.success small {
+    visibility: hidden;
+    color: #4CAF50;
+    font-size: 14px;
+  }
